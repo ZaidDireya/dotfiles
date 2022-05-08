@@ -6,10 +6,14 @@ map <C-o> :FZF <CR>
 map <C-p> :Rg <CR>
 map <C-h> :noh <CR>
 map <leader>b :execute "term git blame " . expand('%:p') <CR>
+nnoremap <leader>v :tabedit ~/.vimrc<CR>
+nnoremap <leader>s :stabedit ~/.vimrc<CR>ource %<CR>
+
 set laststatus=2
 set hlsearch
 set incsearch
 set spell
+    
 "set file open autocomplete to list
 set wildmode=list:longest
 call plug#begin()
