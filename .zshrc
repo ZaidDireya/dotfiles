@@ -16,3 +16,4 @@ bindkey -v
 if [ -f ~/.zsh_aliases ]; then
     . ~/.zsh_aliases
 fi
+export _JAVA_AWT_WM_NONREPARENTING=1;

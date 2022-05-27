@@ -1,0 +1,13 @@
+alias sshdev='ssh ubuntu@158.101.230.187'
+alias vi='vim'
+alias bl='sudo echo 20 > /sys/class/backlight/intel_backlight/brightness'
+alias bu='sudo echo 590 > /sys/class/backlight/intel_backlight/brightness'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias zth='zathura'
+alias sshredis='ssh ubuntu@158.101.228.32'
+alias sshfpm1='ssh ubuntu@193.122.71.151'
+alias sshdb='ssh ubuntu@158.101.229.240'
+alias sshfpm2='ssh ubuntu@158.101.231.81'
+alias sshscale='ssh ubuntu@158.101.228.121'
+alias vpnstart="sudo ipsec start & sudo ipsec up azure"
+alias le="ls -lah"
