@@ -10,4 +10,5 @@ alias sshdb='ssh ubuntu@158.101.229.240'
 alias sshfpm2='ssh ubuntu@158.101.231.81'
 alias sshscale='ssh ubuntu@158.101.228.121'
 alias vpnstart="sudo ipsec start & sudo ipsec up azure"
-alias le="ls -lah"
+alias le="ls -lah --color"
+alias ls="ls --color"

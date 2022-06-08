@@ -7,8 +7,8 @@ map <C-p> :Rg <CR>
 map <C-h> :noh <CR>
 map <leader>b :execute "term git blame " . expand('%:p') <CR>
 nnoremap <leader>v :tabedit ~/.vimrc<CR>
-nnoremap <leader>s :stabedit ~/.vimrc<CR>source %<CR>
-
+nnoremap <leader>s :w<CR>:source %<CR>
+nnoremap <leader>t :NERDTree<CR>
 set laststatus=2
 set hlsearch
 set incsearch

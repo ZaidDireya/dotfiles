@@ -8,7 +8,7 @@ SAVEHIST=1000
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/zaid/.zshrc'
 
-autoload -Uz compinit
+autoload -Uz compinit 
 compinit
 # End of lines added by compinstall
 # enable vim binding
