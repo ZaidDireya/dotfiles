@@ -12,3 +12,8 @@ alias sshscale='ssh ubuntu@158.101.228.121'
 alias vpnstart="sudo ipsec start & sudo ipsec up azure"
 alias le="ls -lah --color"
 alias ls="ls --color"
+alias wifi="nmcli dev wifi"
+alias runcry="nv .env.dev make run"
+alias locry="nv .env.dev.local"
+alias testcry="nv .env.test mix test.watch"
+alias ctcry="ctags -R --exclude=.git --exclude=_build --exclude=node_modules"
