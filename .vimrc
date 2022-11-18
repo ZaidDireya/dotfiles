@@ -16,6 +16,8 @@ nnoremap <leader>j :%!python -m json.tool<CR>
 nnoremap <leader>c "+
 nnoremap <leader>p "+p
 nnoremap <leader>e :let @+ = expand("%")<CR>
+nnoremap <leader>] :ALENextWrap<CR>
+nnoremap <leader>[ :ALEPreviousWrap<CR>
 set laststatus=2
 set hlsearch
 set incsearch
@@ -28,7 +30,7 @@ packadd! matchit
 " Required, explicitly enable Elixir LS
 
 let g:ale_linters = {
-\   'elixir': ['elixir-ls'],
+\   'elixir': ['elixir-ls', 'credo'],
 \}
 
 let g:ale_fixers = {
