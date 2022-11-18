@@ -11,7 +11,11 @@ nnoremap <leader>s :w<CR>:source %<CR>
 nnoremap <leader>t :NERDTree<CR>
 nnoremap <leader>l :e#<CR>
 nnoremap <leader>f :NERDTreeFind<CR>
-map <leader>d :ALEGoToDefinition<CR>
+nnoremap <leader>d :ALEGoToDefinition<CR>
+nnoremap <leader>j :%!python -m json.tool<CR>
+nnoremap <leader>c "+
+nnoremap <leader>p "+p
+nnoremap <leader>e :let @+ = expand("%")<CR>
 set laststatus=2
 set hlsearch
 set incsearch
