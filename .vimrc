@@ -18,6 +18,9 @@ nnoremap <leader>p "+p
 nnoremap <leader>e :let @+ = expand("%")<CR>
 nnoremap <leader>] :ALENextWrap<CR>
 nnoremap <leader>[ :ALEPreviousWrap<CR>
+nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>h :History<CR>
+nnoremap <leader>cm :Commit<CR>
 set laststatus=2
 set hlsearch
 set incsearch

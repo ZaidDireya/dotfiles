@@ -18,3 +18,4 @@ if [ -f ~/.zsh_aliases ]; then
 fi
 export _JAVA_AWT_WM_NONREPARENTING=1;
 source /usr/share/nvm/init-nvm.sh
+export PATH=$PATH:/home/zaid/.local/bin
