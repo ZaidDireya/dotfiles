@@ -8,7 +8,7 @@ SAVEHIST=1000
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/zaid/.zshrc'
 
-autoload -Uz compinit
+autoload -Uz compinit 
 compinit
 # End of lines added by compinstall
 # enable vim binding
@@ -16,3 +16,6 @@ bindkey -v
 if [ -f ~/.zsh_aliases ]; then
     . ~/.zsh_aliases
 fi
+export _JAVA_AWT_WM_NONREPARENTING=1;
+source /usr/share/nvm/init-nvm.sh
+export PATH=$PATH:/home/zaid/.local/bin
