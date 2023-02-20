@@ -54,5 +54,6 @@ Plug 'neomake/neomake'
 Plug 'StanAngeloff/php.vim'
 Plug 'dense-analysis/ale'
 Plug 'elixir-editors/vim-elixir'
+Plug 'dhruvasagar/vim-table-mode'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
