@@ -55,5 +55,6 @@ Plug 'StanAngeloff/php.vim'
 Plug 'dense-analysis/ale'
 Plug 'elixir-editors/vim-elixir'
 Plug 'dhruvasagar/vim-table-mode'
+Plug 'sheerun/vim-polyglot'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
