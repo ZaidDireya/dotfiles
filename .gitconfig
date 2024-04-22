@@ -10,3 +10,9 @@
 [alias]
 	hist = log --oneline --decorate --all  --pretty=format:'%C(auto)%h%C(auto)%d%C(reset) %s %C(bold blue)(%cr)%C(reset) %C(italic green)[%an]%C(reset) %C(reset)'
 	lg = log --oneline --graph --decorate --all
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+	prompt = false
+[mergetool]
+	keepBackup = false
